@@ -20,4 +20,8 @@ We can specify a query parmeter to remove method, which deletes only those docum
 db.teams.remove({"division":"metropolitan"}) #deletes all of teams that belong to the metropolitan division.
 ``` 
 
+If we want to remove a single document, we can call the remove() method with the justOne parameter set to true or 1.
 
+```
+db.teams.remove({"division":"metropolitan"},1) #deletes all of teams that belong to the metropolitan division.
+```
