@@ -1,4 +1,4 @@
-##Set up
+##Setting up MongoDB
 
 __Installation__
 
