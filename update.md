@@ -12,7 +12,7 @@ By default, the update() method updates a single document. To update multiple do
 The query 
 `db.teams.update({"name":"new jersey devils"},{"$set":{"conference":"western"}})` updates confrence of team with name "new jersey devils" to western.
 
-The update query either either updates the value(if that field exists in the document) or adds the (field,value) pair if field does not exist.
+The update query either updates the value(if that field already exists in the document) or adds the (field,value) pair if field does not exist.
 
 * __Unset operator__
 
@@ -23,7 +23,7 @@ The query ` db.teams.update({"name":"new jersey devils"},{"$unset":{"city":1}})`
 
 * __Manipulating arrays__ 
 
-  * Push: Extends the array by adding an element to the right. For e.g., `db.teams.update({"name":"new jersey devils"},{"$push":{"stanley cups":2016}})` add the value 2016 on the right of the stanley cups array.
+  * Push: Extends the array by adding the element to the right. For e.g., `db.teams.update({"name":"new jersey devils"},{"$push":{"stanley cups":2016}})` add the value 2016 on the right of the stanley cups array.
     
   * Pull: Removes the specified value from the array. For e.g., `db.teams.update({"name":"new jersey devils"},{"$pull":{"stanley cups":1995}})` removes the element 1995 from the array.
   
