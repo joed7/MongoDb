@@ -1,4 +1,4 @@
-##Aggregations
+##Aggregation
 
 Aggregations are operations that process data records and return computed results. MongoDB provides a rich set of aggregation operations that examine and perform calculations on the data sets.MongoDB provides aggregation framework, modeled on the concept of data processing pipelines. Documents enter a multi-stage pipeline that transforms the documents into an aggregated result.
 
