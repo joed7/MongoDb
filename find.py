@@ -1,3 +1,5 @@
+''' Python script demonstrating find commands in pymongo
+'''
 import pymongo
 
 connection = pymongo.MongoClient("mongodb://localhost")
@@ -7,7 +9,8 @@ teams = db.teams
 
 
 def find():
-
+    '''Return all of the teams in western confence
+    '''
     query = {'conference':'western'}
 
     try:
@@ -22,7 +25,8 @@ def find():
 
 
 def find_one():
-
+    '''Return the team with _id 1
+    '''
     query = {'_id':1}
     
     try:
@@ -32,8 +36,6 @@ def find_one():
         print "Unexpected error:", type(e), e
 
     print doc
-
-
 
 find()
 #find_one()

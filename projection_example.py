@@ -1,3 +1,5 @@
+''' Python script demonstrating projection in pymongo
+'''
 import pymongo
 
 connection = pymongo.MongoClient("mongodb://localhost")
