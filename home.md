@@ -14,4 +14,5 @@ Table of Contents
 * [PyMongo](https://github.com/joed7/MongoDb/blob/master/pymongo.md) 
 * [Indexing](https://github.com/joed7/MongoDb/blob/master/index.md)
 * [Sharding](https://github.com/joed7/MongoDb/blob/master/sharding.md)
+* [Code Examples](https://github.com/joed7/MongoDb/blob/master/code-examples.md)
 * [Further Reading](https://github.com/joed7/MongoDb/blob/master/furtherreading.md)
