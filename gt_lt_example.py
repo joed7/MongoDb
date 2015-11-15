@@ -1,4 +1,5 @@
-
+'''Python script demonstrating comparison operators
+'''
 import pymongo
 import sys
 

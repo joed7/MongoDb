@@ -1,4 +1,4 @@
-''' Python script demonstrating find commands in pymongo
+''' Python script demonstrating find command in pymongo
 '''
 import pymongo
 

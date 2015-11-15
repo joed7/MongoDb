@@ -1,3 +1,6 @@
+'''Python script demonstraing limit,sort
+'''
+
 import pymongo
 
 connection = pymongo.MongoClient("mongodb://localhost")
