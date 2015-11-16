@@ -9,3 +9,5 @@ This page serves as the repository for all the coding examples used in this pres
 * [Python script demonstrating projection](https://github.com/joed7/MongoDb/blob/master/projection_example.py)
 * [Python script demonstrating limit,sort](https://github.com/joed7/MongoDb/blob/master/limit_skip_sort.py)
 * [Python script demonstrating comparison operators](https://github.com/joed7/MongoDb/blob/master/gt_lt_example.py)
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/sharding.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/furtherreading.md)

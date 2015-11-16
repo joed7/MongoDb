@@ -29,3 +29,5 @@ The query `db.teams.find({"_id":1})` returns
 If we are interested only in team's name and division, we can use the projection like this
 `db.teams.find({"_id":1},{"name":1,"division":1});`, this will print team's name and division along with it's id.  By default, projection always returns the `_id` field, to hide that we specify `"_id":0` in projection document.    
 
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/delete.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/aggregate.md)

@@ -36,3 +36,6 @@ The query puts the names of all of teams of a division in teams array for every 
 * `db.teams.aggregate([{"$sort":{"founded":1}},{$project:{"_id":0,"team":{$toUpper:"$name"},"founded":1}}])`
 
 This query sorts all of the team by their founded year in increasing order and then selects only team and founded attributes in  the final output.
+
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/projection.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/pymongo.md)

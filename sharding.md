@@ -41,3 +41,5 @@ MongoDB distributes data, or shards, at the collection level. Sharding partition
 With hash based partitioning, two documents with “close” shard key values are unlikely to be part of the same chunk. This ensures a more random distribution of a collection in the cluster.
 
 ![](https://github.com/joed7/MongoDb/blob/master/images/sharding-hash-based.png)
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/index.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/code-examples.md)

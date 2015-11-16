@@ -183,3 +183,4 @@ db.inventory.find(
 )
 ```
 
+[Previous](https://github.com/joed7/MongoDb/blob/master/installation.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/insert.md)

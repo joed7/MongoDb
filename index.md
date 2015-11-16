@@ -25,3 +25,6 @@ __Other useful Index commands__
 * getIndexes: `db.teams.getIndexes()` returns all of the indexes of a collection.
 
 * dropIndex: `db.teams.dropIndex({"founded":1})` drops index on founded attribute. 
+
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/pymongo.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/sharding.md)

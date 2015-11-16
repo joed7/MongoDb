@@ -30,3 +30,5 @@ The query ` db.teams.update({"name":"new jersey devils"},{"$unset":{"city":1}})`
   * Pop: Removes the rightmost element from the array. For e.g., `db.teams.update({"name":"new jersey devils"},{"$pop":{"stanley cups":1}})` removes the last element from the array.
   
   * addToSet: If the element already exists, it does not do anything else it is treated as a push.  For e.g. ` db.teams.update({"name":"new jersey devils"},{"$addToSet":{"stanley cups":1995}})` adds 1995 if does not exist already else it does not do anything.
+  
+[Previous](https://github.com/joed7/MongoDb/blob/master/insert.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/delete.md)  

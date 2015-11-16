@@ -25,3 +25,5 @@ If we want to remove a single document, we can call the remove() method with the
 ```
 db.teams.remove({"division":"metropolitan"},1) #deletes one team of all the teams that belong to the metropolitan division.
 ```
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/update.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/projection.md)

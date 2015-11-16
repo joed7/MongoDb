@@ -58,3 +58,5 @@ db.teams.insert([
     }
 ])    
 ```
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/find.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/update.md)

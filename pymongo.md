@@ -26,22 +26,8 @@ Getting a collection in PyMongo works the same as getting a database:
 ```
 collection = db.test_collection
 ```
+__Code Examples__
 
-__CRUD operations using PyMongo__
+Please refer to [Code Examples](https://github.com/joed7/MongoDb/blob/master/code-examples.md) for code-examples of various operations in pymongo.
 
-* __Create__: [Here](https://github.com/joed7/MongoDb/blob/master/using_insert.py) is an example of data insertion in mongodb.  
-
-* __Read__: [Here](https://github.com/joed7/MongoDb/blob/master/find.py) is example of fetching data from mongodb.
-
-* __Update__: [Here](https://github.com/joed7/MongoDb/blob/master/using_update.py) is an example of updating documents in mongodb.
- 
-* __Remove__: [Here](https://github.com/joed7/MongoDb/blob/master/using_remove.py) is an example of deleting documents from mongodb.
-
-__Other examples using pymongo__
-
-* [Here](https://github.com/joed7/MongoDb/blob/master/projection_example.py) is an example of projection in pymongo.
-
-* [Here](https://github.com/joed7/MongoDb/blob/master/gt_lt_example.py) is an example of using `$gt` operator in pymongo.
-
-* [Here](https://github.com/joed7/MongoDb/blob/master/limit_skip_sort.py) is an example of using sort, limit in pymongo. 
-
+[Previous](https://github.com/joed7/MongoDb/blob/master/aggregate.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/index.md)
