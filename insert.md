@@ -1,7 +1,7 @@
 ##Insert Operations
 
 
-In MongoDB, the `db.collection.insert()` method adds new documents into a collection. Here is an example which insert a team in the database,
+In MongoDB, the `db.collection.insert()` method adds new documents into a collection. Here is an example which inserts a team in the database,
 
 ```
 db.teams.insert(

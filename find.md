@@ -1,16 +1,16 @@
 ##Querying
 
-In MongoDB, the db.collection.find() method retrieves documents from a collection. The db.collection.find() method returns a cursor to the retrieved documents.
+In MongoDB, the `db.collection.find()` method retrieves documents from a collection. The `db.collection.find()` method returns a cursor to the retrieved documents.
 
-__Select All Documents in a Collection__
+__Select all documents in a collection__
 
-Giving empty query document `{}` to find method return all documents in the collection. 
+Giving empty query document `{}` to find method returns all documents in a collection. 
 
 ```
-db.teams.find({}) #return all the documetns in teams collection
+db.teams.find({}) #return all the documents in teams collection
 ```
 
-Doing it is same as leaving query parameter i.e. `db.teams.find()` is same as `db.teams.find({})`
+Doing it is same as leaving query parameter empty i.e. `db.teams.find()` is same as `db.teams.find({})`
 
 
 __Specify Equality Condition__
@@ -21,7 +21,7 @@ To specify equality condition, we use the query document `{ <field>: <value> }`;
 db.teams.find({"division":"pacific"}) #returns the teams of pacific division
 ```
 
-We can specify multiple `{ <field>: <value> }` paris in the query parameter, MongoDB treats it as and condition on all of the parameters.
+We can specify multiple `{ <field>: <value> }` paris in the query parameter, MongoDB treats it as `and` condition on all of the parameters.
 
 ```
 db.teams.find({"division":"central","conference":"western"}) #returns the teams of central division and western confrence
@@ -51,7 +51,7 @@ db.teams.find( { "division": { $in: [ 'central', 'pacific' ] } } ) #returns the 
 
 As discussed above, `and` operation can be performed by specifying multiple parameters in the query.
 
-Using the $or operator, we can specify a compound query that joins each clause with a logical OR conjunction so that the query selects the documents in the collection that match at least one condition.
+Using the `$or` operator, we can specify a compound query that joins each clause with a logical OR conjunction so that the query selects the documents in the collection that match at least one condition.
 
 ```
 db.teams.find({ "$or" : [ {"division":"metropolitan"},{"conference":"western"} ] }) #return the teams of metropolitan division or western confrence
@@ -81,7 +81,7 @@ Consider this example restaurant
 	"restaurant_id" : "30075445"
 }
 ```
-To return the above mentioned restaurant via zipcode, we can run the query `db.house.find({"address.building":"1007"})`.
+To return the above mentioned restaurant via building field of the address, we can run the query `db.house.find({"address.building":"1007"})`.
 
 
 __Querying Arrays__
@@ -124,7 +124,7 @@ For e.g., On the inventory collections, if we run this query `db.inventory.find(
 { "_id" : 7, "type" : "food", "item" : "ccc", "ratings" : [ 9, 5, 8 ] }
 
 ```
-becuase, both of these documents have 8 as ratings which satisfies the search criterion.
+becuase, both of these documents have 8 as rating which satisfies the search criterion.
 
 If we had ran the above query without the `elemMatch` operator `db.inventory.find( { ratings: { $gt: 5, $lt: 9 } } )`, it would have returned the documents where rating array contains elements that in some combination satisfy the query conditions; e.g., one element can satisfy the greater than 5 condition and another element can satisfy the less than 9 condition, or a single element can satisfy both.
 

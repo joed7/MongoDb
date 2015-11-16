@@ -1,6 +1,6 @@
 #Projection
 
-By default, the find command returns all of the attributes in a document. To filter out specific fields, we can sepcify the fields we want as a document, as a parmeter to find method,  which is called projection.
+By default, the find command returns all of the attributes in a document. To filter out specific fields, we can sepcify the fields in a document as a parmeter to find method,  which is called projection.
 
 The query `db.teams.find({"_id":1})` returns
 

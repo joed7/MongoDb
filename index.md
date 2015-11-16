@@ -1,6 +1,6 @@
 ##Indexes in MongoDb
 
-Indexes support the efficient resolution of queries. Without indexes, MongoDB must scan every document of a collection to select those documents that match the query statement. This scan is highly inefficient and require the mongodb to process a large volume of data. Indexes are special data structures, that store a small portion of the data set in an easy to traverse form. The index stores the value of a specific field or set of fields, ordered by the value of the field as specified in index. MongoDb creates index of `_id` attribute by default.
+Indexes support the efficient resolution of queries. Without indexes, MongoDB must scan every document of a collection to select those documents that match the query statement. This scan is highly inefficient and require the mongodb to process a large volume of data. Indexes are special data structures, that store a small portion of the data, set in an easy to traverse form. The index stores the value of a specific field or set of fields, ordered by the value of the field as specified in index. MongoDb creates index of `_id` attribute by default.
 
 __Index Creation__
 

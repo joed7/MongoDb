@@ -1,6 +1,6 @@
 ##Introduction
 
-MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document.
+MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on the concepts of database, collection and document.
 
 __Database__
 
@@ -49,7 +49,7 @@ A sample json document:
 
 __Advantages of MongoDB over RDBMS__
 
-* MongoDB is document database in which one collection holds different different documents. Number of fields, content and size of the document can be differ from one document to another.
+* MongoDB is document database in which one collection holds different documents. Number of fields, content and size of the document can differ from one document to another.
 
 * MongoDB is easy to scale.
 

@@ -4,7 +4,7 @@ MongoDB's update() methods are used to update document into a collection. The up
 
 `db.COLLECTION_NAME.update(SELECTIOIN_CRITERIA, UPDATE_DATA)`
 
-By default, the update() method updates a single document. To update multiple documents, use the multi option in the update() method. 
+By default, the update() method updates a single document. To update multiple documents, we have to use the `multi` option in the update() method. 
 
 
 * __Set operator__
@@ -12,7 +12,7 @@ By default, the update() method updates a single document. To update multiple do
 The query 
 `db.teams.update({"name":"new jersey devils"},{"$set":{"conference":"western"}})` updates confrence of team with name "new jersey devils" to western.
 
-The update query either updates the value(if that field already exists in the document) or adds the (field,value) pair if field does not exist.
+The update query either updates the value(if that field already exists in the document) or adds the (field,value) pair if the field does not exist.
 
 * __Unset operator__
 
@@ -29,6 +29,6 @@ The query ` db.teams.update({"name":"new jersey devils"},{"$unset":{"city":1}})`
   
   * Pop: Removes the rightmost element from the array. For e.g., `db.teams.update({"name":"new jersey devils"},{"$pop":{"stanley cups":1}})` removes the last element from the array.
   
-  * addToSet: If the element already exists, it does not do anything else it is treated as a push.  For e.g. ` db.teams.update({"name":"new jersey devils"},{"$addToSet":{"stanley cups":1995}})` adds 1995 if does not exist already else it does not do anything.
+  * addToSet: If the element already exists, it does not do anything else it is treated as a push.  For e.g. ` db.teams.update({"name":"new jersey devils"},{"$addToSet":{"stanley cups":1995}})` adds 1995 if does not exist already, else it does not do anything.
   
 [Previous](https://github.com/joed7/MongoDb/blob/master/insert.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/delete.md)  

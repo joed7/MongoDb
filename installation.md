@@ -16,7 +16,7 @@ After installing, in linux, mongodb can be started and stopped respectively usin
 
 __Mongo Shell__
 
-The mongo shell is an interactive JavaScript interface to MongoDB and is a component of the MongoDB package. We can use the mongo shell to query and update data as well as perform administrative operations. Upon installing and launching MongoDB, we can connect to mongo shell by typing `mongo` in terminal.
+The mongo shell is an interactive JavaScript interface to MongoDB and is a component of the MongoDB package. We can use the mongo shell to query and update data as well as to perform administrative operations. Upon installing and launching MongoDB, we can connect to mongo shell by typing `mongo` in terminal.
 
 
 __Importing Data-Set in MongoDB__
@@ -33,5 +33,3 @@ The above command inserts data in `teams` collections in nhl database, dropping 
 * Run the mongodb command : `db.teams.findOne()` #returns the first document of the collection
   
 `help` command can be used to view the help menu of mongo shell.
-
-[Previous](https://github.com/joed7/MongoDb/blob/master/introduction.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/find.md)
