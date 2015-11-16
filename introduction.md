@@ -58,4 +58,4 @@ __Advantages of MongoDB over RDBMS__
 * MongoDB supports dynamic queries on documents using a document-based query language that's nearly as powerful as SQL
 
 
-[Next](https://github.com/joed7/MongoDb/blob/master/installation.md)
+[Home](https://github.com/joed7/MongoDb/blob/master/home.md)  | [Next](https://github.com/joed7/MongoDb/blob/master/installation.md)
