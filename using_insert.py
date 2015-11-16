@@ -9,7 +9,7 @@ teams = db.teams
 
 
 def insert():
-    '''Insert a team in the databse
+    '''Insert a team in the database
     '''
     
     vegas ={"_id":31,"name":"Vegas Hustlers", "city":"Las Vegas, NV",
