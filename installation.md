@@ -33,3 +33,5 @@ The above command inserts data in `teams` collections in nhl database, dropping 
 * Run the mongodb command : `db.teams.findOne()` #returns the first document of the collection
   
 `help` command can be used to view the help menu of mongo shell.
+
+[Previous](https://github.com/joed7/MongoDb/blob/master/introduction.md)  |  [Home](https://github.com/joed7/MongoDb/blob/master/home.md)  |  [Next](https://github.com/joed7/MongoDb/blob/master/find.md)
